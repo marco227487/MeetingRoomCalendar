@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Room Calendar</title>
     <meta http-equiv="refresh" content="0; url=https://outlook.office365.com/owa/calendar/d8e88a9598b140d1b5135ebaf359d4c6@aimconsulting.onmicrosoft.com/7a8c0bcca7d544ec88f95266bbafc6f917462616908998521805/calendar.html">
-    <script>
-        window.location.href = "https://outlook.office365.com/owa/calendar/d8e88a9598b140d1b5135ebaf359d4c6@aimconsulting.onmicrosoft.com/7a8c0bcca7d544ec88f95266bbafc6f917462616908998521805/calendar.html";
-    </script>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
 </head>
-<body style="background-color:#000;"></body>
+<body>
+    <p>Caricamento Calendario in corso...</p>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            window.location.replace("https://outlook.office365.com/owa/calendar/d8e88a9598b140d1b5135ebaf359d4c6@aimconsulting.onmicrosoft.com/7a8c0bcca7d544ec88f95266bbafc6f917462616908998521805/calendar.html");
+        });
+    </script>
+</body>
 </html>
